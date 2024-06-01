@@ -23,7 +23,7 @@ const BookList = () => {
                 {++index}. {book.title} by <strong>{book.author}</strong>
               </div>
               <div className="book-action">
-                <button onClick={() => handleDeleteBook(book.id)}>
+                <button type="button" onClick={() => handleDeleteBook(book.id)}>
                   Delete
                 </button>
               </div>

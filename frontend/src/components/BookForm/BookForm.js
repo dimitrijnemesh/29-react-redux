@@ -3,7 +3,7 @@ import { useDispatch } from "react-redux"
 
 import "./BookForm.css"
 import booksData from "../../data/books.json"
-import { addBook } from "../../redux/books/actionCreators"
+import { addBook } from "../../redux/slices/booksSlice"
 import createBookWithID from "../../utils/createBookWithId"
 
 const BookForm = () => {

@@ -53,6 +53,8 @@ const BookList = () => {
     })
   }
 
+  console.log("dimasik")
+
   return (
     <div className="app-block book-list">
       <h2>Book List</h2>
